@@ -6,3 +6,5 @@ RUN npm install -g \
   smartdc \
   manta \
   bunyan
+
+ENTRYPOINT ["manta-sync"]
